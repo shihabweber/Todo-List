@@ -27,7 +27,7 @@ function showtodo(filter){
 		if(filter==todo.status||filter=="all"){
 			li+=`<li class="task">
 					<label for="${id}">	
-						<input type="checkbox" id="${id}"{isCompleted} onclick="updateStatus(this)">
+						<input type="checkbox" id="${id}" ${isCompleted} onclick="updateStatus(this)">
 						<p class="${isCompleted}">${todo.name}</p>
 					</label>
 					<div class="settings">
