@@ -183,3 +183,14 @@ label {
 .task-menu li i{
 	padding-right:8px;
 }
+
+@media(max-width:380px){
+.filters span{
+	margin:2px;
+	font-size:15px;
+}	
+.controls .clear-btn{
+	padding:5px 8px;
+	font-size:8px;
+}
+}
