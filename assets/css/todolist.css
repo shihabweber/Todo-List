@@ -25,6 +25,7 @@ body{
 	border-radius:7px;
 	margin:53px auto;
 	padding: 20px 0px 9px;
+	min-width:300px;
 	
 	
 }
@@ -59,8 +60,6 @@ label {
 	border-radius:5px;
 	border:1px solid #999;
 	
-	
-	
 }
 
 .task-input input::placeholder{
@@ -77,6 +76,7 @@ label {
 	margin:0 8px;
 	cursor:pointer;
 	font-size:17px;
+	
 }
 
 .filters .active{
@@ -137,6 +137,9 @@ label {
 }
 .task label{
 	display:flex;
+}
+.task label p.checked{
+	text-decoration:line-through;
 }
 .task label input{
 	margin-top:6px;
